@@ -1,0 +1,19 @@
+
+
+.payCart{
+    background-color: rgba(136, 231, 218, 0.822);
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 270px;
+    height: 350px;
+    
+ }
+ .payCartImg{
+     width: 100px;
+ }
+
+ 

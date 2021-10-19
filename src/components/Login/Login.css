@@ -1,0 +1,16 @@
+.login{
+   background-color: rgba(255, 163, 178, 0.315);
+   position: absolute;
+   margin: auto;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   width: 600px;
+   height: 350px;
+   border-radius: 20px;
+}
+.login:hover{
+    box-shadow: 0 0 30px rgb(64, 79, 82);
+    transition: 1s ease-in-out;
+}

@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "name": "One modern service method for dentists",
+      "description": "Many peoples today enjoy excellent oral  health and are keeping health and are keeping their natural teeth throughout their lives. ",
+      "price": 124,
+      "img": "https://i.ibb.co/xMHPjYC/030620-N-8937-A-002-U-S-Fleet-Activities-Sasebo-Japan-June-20-2003-Lieutenant-William-Peterson-left.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Surgical surgery is groundbreaking way",
+      "description": "Surgery is a medical  specialty that uses operative manual and instrumental techniques on a person to investigate or treat.",
+      "price": 154,
+      "img": "https://i.ibb.co/ySJHR5g/sergary.jpg"
+    },
+    {
+      "id": 3,
+      "name": "We are engaged in primary level medical services",
+      "description": "Primary health care, or PHC, refers to essential health care that is based on scientifically sound and socially acceptable methods and technology.",
+      "price": 135,
+      "img": "https://i.ibb.co/DLxTGVk/primary-level.jpg"
+    },
+    {
+      "id": 4,
+      "name": "CT Scan (Computed Tomography) ",
+      "description": "Medical ultrasound includes diagnostic imaging techniques, as well as therapeutic applications of ultrasound.",
+      "price": 150,
+      "img": "https://assets.website-files.com/5df07b3e9be8f64cefe40af2/5f760f5ba9d19ddbf959608a_Main%20Image%20(85)%20(1).jpg"
+    },
+    {
+      "id": 5,
+      "name": "Medical ultrasound digital service",
+      "description": "Medical ultrasound includes diagnostic imaging techniques, as well as therapeutic applications of ultrasound.",
+      "price": 140,
+      "img": "https://i.ibb.co/pjCCdqd/ultasnow.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Electrocardiogram modern",
+      "description": "During each heartbeat, a healthy heart has an orderly  progression of depolarization that starts with pacemaker cells in the sinoatrial node,",
+      "price": 180,
+      "img": "https://i.ibb.co/r55QVFk/ecg.jpg"
+    }
+  ]

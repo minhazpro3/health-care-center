@@ -1,0 +1,36 @@
+.image {
+    height: 230px;
+
+}
+.carts{
+    font-family: 'Roboto', sans-serif;
+}
+.card-height{
+    height: 500px;
+}
+.cart:hover{
+    box-shadow: 2px 5px 10px 10px gray;
+    transition: 1s;
+}
+
+
+@media screen and  (max-width: 688px) {
+    .card-height{
+        height: 600px;
+    }
+    .image {
+        height: 280px;
+    
+    }
+        
+    }
+@media screen and (max-width: 300px) {
+    .card-height{
+        height: 700px;
+    }
+    .image {
+        height: 200px;
+    
+    }
+        
+    }
