@@ -1,6 +1,6 @@
 # AHS Southcrest Hospital, LLC dba Hillcrest Hospital South
 
-This is our digital service platform [Live link]().
+This is our digital service platform [Live link](https://elegant-beaver-6c3086.netlify.app/home).
 
 ## That's why use this website
 
