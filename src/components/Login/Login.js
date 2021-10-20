@@ -2,14 +2,19 @@ import React, { useState } from 'react';
 import { useHistory, useLocation } from 'react-router';
 import useAuth from '../../Hooks/useAuth';
 import './Login.css'
+import Swal from 'sweetalert2'
+import { Link } from 'react-router-dom';
 
 const Login = () => {
-    const {userRegister,userLogin,siningWithgoogle,error,user}=useAuth();
+    const {userRegister,userLogin,siningWithgoogle,user}=useAuth();
     const history = useHistory();
     const location =useLocation();
-    const goToTarget = location.state?.from ||  "./home";
+    const goToTarget = location.state?.from ||  "./home" ;  
+    
     const [email,setEmail]=useState('');
     const [password,setPassword]=useState('');
+
+
 
     const handleGoogleToRight = ()=>{
         siningWithgoogle()
@@ -19,6 +24,19 @@ const Login = () => {
           })
     }
 
+    function sweetAlert (){
+        if(user.email){
+            Swal.fire({
+                title: ' successful!',
+                text: 'Thank you so much.',
+                icon: 'success',
+                confirmButtonText: 'Ok'
+              }) 
+             
+        }
+     
+        
+    }
     
 
     const emailCatch = (e)=>{
@@ -31,13 +49,16 @@ const Login = () => {
 
     const registerHandel = ()=>{
         userRegister(email,password)
+        
 
     }
     
     const userHandel = ()=>{
+        sweetAlert()
         userLogin(email,password)
         history.push(goToTarget)
     }
+
 
     return (
         <div>
@@ -48,8 +69,6 @@ const Login = () => {
                
                 <br/>
                 <input onChange={passwordCatch} className="py-1 w-100 px-2  rounded-2 border-0 mb-2" type="Password" placeholder=" password" required />
-               { !user?.email ? <p>{error}</p>: ""}
-                {user?.email? <p>Please login now !!!!</p>: []}
                 <div className="d-flex gap-4">
                 <button onClick={registerHandel} className=" btn text-white border-0 px-3 bg-primary rounded-3 px-2 btn-sm">Register</button>
                 <button onClick={userHandel} className=" btn border-0 text-white fw-medium px-3 bg-primary rounded-3 px-2 btn-sm">Login</button>

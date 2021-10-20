@@ -12,12 +12,6 @@
 
 }
 
-.doctorCart :hover img{
-    transform: rotate(360deg);
-    transition: 2s;
-   
-    
-}
 
 .textImg-DIv{
     display: flex;

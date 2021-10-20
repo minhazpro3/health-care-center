@@ -26,7 +26,7 @@ const Navigation = () => {
                </div>
               { user.email ? <div className="d-flex">
                 <p className="userName fst-italic"> {user?.displayName}</p>
-              </div>: <h4><i class="fas fa-user-circle"></i></h4>
+              </div>: ""
                 }
                 <Link className="mx-2 fst-italic text-decoration-none text-info" to="/home">Home</Link>
                
